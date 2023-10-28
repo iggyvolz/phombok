@@ -1,0 +1,21 @@
+{
+  "name": "iggyovolz/phombok",
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "require": {
+    "nikic/php-parser": "^5"
+  },
+  "require-dev": {
+    "nette/tester": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\phombok\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "iggyvolz\\phombok\\test\\": "test/classes/"
+    }
+  }
+}
