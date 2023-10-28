@@ -14,6 +14,6 @@ class MyBasicClass
 ```
 
 ```injectablephp
-(new \iggyvolz\phombok\test\MyBasicClass())->getFoo() === 1;
+(new MyBasicClass())->getFoo() === 1;
 
 ```
