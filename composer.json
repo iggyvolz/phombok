@@ -1,5 +1,6 @@
 {
   "name": "iggyovolz/phombok",
+  "license": "0BSD",
   "minimum-stability": "beta",
   "prefer-stable": true,
   "require": {
